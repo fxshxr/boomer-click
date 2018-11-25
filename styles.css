@@ -1,0 +1,21 @@
+#wrapper{
+	font-family: 'Covered By Your Grace', cursive;
+    width:1180px;
+    margin:0 auto;
+    text-align:center;
+    
+}
+
+#can{
+	text-align: center;
+	
+}
+h1{
+	font-size: 50px;
+}
+
+#div_score{
+	text-align: left;
+	font-size: 30px;
+
+}
