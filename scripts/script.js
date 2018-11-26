@@ -1,7 +1,6 @@
-var clickplex = 1;
-var result = 0;
-
 window.onload = function(){
+	document.getElementById('result').innerHTML = localStorage.getItem('res');
+	document.getElementById('clickplex').innerHTML = localStorage.getItem('cp');
 	var res = localStorage.getItem('res');
 	console.log(res);
 	parsedresult=parseInt(res,10);
@@ -11,6 +10,9 @@ window.onload = function(){
 	parcedcp=parseInt(cp,10);
 	clickplex = parcedcp;
 }
+
+
+
 
 
 
@@ -31,3 +33,7 @@ function reset(){
 	localStorage.setItem('cp', '1')
 	location.reload();
 }
+
+
+var clickplex = 1;
+var result = 0;
